@@ -29,7 +29,7 @@ import java.util.Random;
  */
 public class BaseNTestData {
 
-    final static byte[] DECODED
+    static final byte[] DECODED
             = {-12, -125, -51, 43, 5, 47, 116, -72, -120, 2, -98, -100, -73, 61, 118, 74, 36, 38, 56, 107, 45, 91, 38,
             47, 72, -9, -98, -66, -25, -61, -122, -68, -38, -62, -50, -71, -66, -116, -92, 42, 54, -56, -113, 125,
             -40, 89, 54, -67, -60, 14, -36, -4, 81, -14, -91, 103, 37, -83, -104, 80, -18, -119, -33, 115, 114, 68,
@@ -95,8 +95,8 @@ public class BaseNTestData {
         return os.toByteArray();
     }
 
-    private final static int SIZE_KEY = 0;
-    private final static int LAST_READ_KEY = 1;
+    private static final int SIZE_KEY = 0;
+    private static final int LAST_READ_KEY = 1;
 
     /**
      * Read all bytes from an InputStream into a byte array

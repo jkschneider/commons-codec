@@ -34,9 +34,9 @@ import static org.junit.Assert.fail;
  */
 public class Base64OutputStreamTest {
 
-    private final static byte[] CR_LF = {(byte) '\r', (byte) '\n'};
+    private static final byte[] CR_LF = {(byte) '\r', (byte) '\n'};
 
-    private final static byte[] LF = {(byte) '\n'};
+    private static final byte[] LF = {(byte) '\n'};
 
     private static final String STRING_FIXTURE = "Hello World";
 
